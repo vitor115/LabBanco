@@ -32,7 +32,7 @@ public class BancoTest {
         assertEquals(true, banco.avalia_cliente(500, true, true));
         assertEquals(true, banco.avalia_cliente(500, true, false));
         assertEquals(true, banco.avalia_cliente(500, false, true));
-        assertNotEquals(false, banco.avalia_cliente(500, false, false));
+        assertNotEquals(true, banco.avalia_cliente(500, false, false));
         
     }
     
